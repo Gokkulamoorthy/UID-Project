@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="cyberfestforms.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<title>
+    Registration form
+</title>
+<body class="back"> 
+    <img class="logo" src="https://dt19wmazj2dns.cloudfront.net/wp-content/themes/amrita/images/logo-colored.svg">
+
+    <div class="bodycr">
+        <p class="myname">S.R.Gokkulamoorthy <br> CH.EN.U4CYS21019</p>
+
+    <form class="txtcol" name="RegForm" onsubmit="return UID()" method="post">
+        <div>
+            <p class="amrita"> Amrita CyberNation</p>
+            <table> <h4 class="rig">Registration Form</h4>
+                <tr>
+                    <td><label>Name:</label></td> <td><input type="type" name="Name" placeholder="Name" size="30" required></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="email" >Email</label></td><td><input type="text" placeholder="Enter Email" name="email" ></td>
+                </tr>
+                <tr>
+                    <td><label> Phone </label></td> <td><input type="text" name="Countrycode" placeholder="Country code" value="+91" size="3">
+                        <input type="text" name="Phone" placeholder="phone" pattern="[0-9]{10}" required></td>
+                </tr>
+                <tr>
+                    <td><label >Current Address</label></td> <td> <textarea cols="50" rows="5" placeholder="currentaddress" value="address" required></textarea></td>
+                </tr>
+                <tr>
+                    <td><label> Course </label></td> <td><select> 
+                        <option value="course">course</option>
+                        <option value="CYS">CYS</option>
+                        <option value="CSE">CSE</option>
+                        <option value="AI">AI</option>
+                        <option value="MECH">MECH</option>
+                        <option value="EEE">EEE</option>
+                        <option value="ECE">ECE</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label>Event</label></td><td><input type="checkbox" name="cour" id="con">
+                        <label for="con">Cyber concave </label><br>
+                        <input type="checkbox" name="cour" id="meet">
+                        <label for="meet">Industry Meet</label><br>
+                        <input type="checkbox" name="cour" id="fest">
+                        <label for="fest">Cyber Tech Fest</label></td>
+                </tr>
+                <tr>
+                    <td><label>ID Proof</label></td><td><input type="file" name="ID Proof"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="Register"><input type="reset" name="reset" value="clear form"></td>
+                </tr>
+            </table>
+        </div>
+
+
+    </form>
+
+    </div>
+    
+</body>
+</html>

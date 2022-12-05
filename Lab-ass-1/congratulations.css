@@ -1,0 +1,23 @@
+.centre{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0874c7;
+    font-size: 40px;
+    background-color: black;
+    margin-top: 300px;
+}
+
+.backgr{
+    background-image: url(https://busimg.cardekho.com/p/630x420/in/ashok-leyland/viking-school-bus/ashok-leyland-viking-school-bus.jpg?impolicy=resize&imwidth=208);
+    overflow: hidden;
+    background-size: cover;
+}
+.last{
+    margin-top: -20px;
+}
+.home{
+    text-align: center;
+    margin-left: 640px;
+    font-size: 25px;
+    
+}

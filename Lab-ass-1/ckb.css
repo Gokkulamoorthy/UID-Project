@@ -1,0 +1,27 @@
+.back{
+    background-image: url(https://images.unsplash.com/photo-1570125909232-eb263c188f7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YnVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    height: 500px;
+}
+
+.centre{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 300px;
+    font-size: 30px;
+    color: green;
+} 
+
+.top{
+    background-color:rgb(30, 202, 202);
+    border-radius: 10px;
+}
+
+.last{
+    margin-right: 5px;
+    margin-top: 20px;
+    font-size: 30px;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Regular Expression</title>
+<style>
+        body {
+            background-image: url("bg1.png");
+            height: 600px;
+            top: 0%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: rgb(111, 108, 108);
+            padding-left: 550px;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: large;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            background-color: white;
+        }
+
+        .navbar a.active {
+            background-color: #ddd;
+            ;
+            color: black;
+        }
+
+        p {
+            line-height: 1.5em;
+            font-size: 1.2em;
+        }
+
+        h3 {
+            font-size: 1.3em;
+        }
+
+        *{
+            color: black;
+
+            
+        }
+        .topnav{
+            overflow: hidden;
+            background-color: #c70a4b;
+            padding: 1%;
+        }
+        div>a{
+            padding-left: 12px;
+        }
+        .txt{
+            text-decoration: none;
+            color: black;
+        }
+        a.txt:hover{
+            color: #ffffff;
+        }
+        body 
+        {
+            background: linear-gradient(to right, #ffffff 50%, #aaaaaa 100%);
+}
+</style>
+</head>
+
+<body>
+    <div class="topnav" >
+        
+        <a class="txt" href="file:///Users/gokkulamoorthy/Downloads/Documents/VS/Lab-ass-8/main.html">Mouse Event</a>
+        <a class="txt" href="file:///Users/gokkulamoorthy/Downloads/Documents/VS/Lab-ass-8/index.html">Regular Expression</a>
+          
+    </div>
+    <p style="color: black;">S.R.Gokkulamoorthy <br> CH.EN.U4CYS21019</p>
+    <a href="file:///Users/gokkulamoorthy/Downloads/Documents/VS/index.html">Back</a>   
+
+    <center>
+        
+        <div class="container block">
+            <h2>Sentence : </h2>
+            <h3>Adhithya vs Aravind how will win?</h3>
+            <p><button onclick="finder()">Click Me </button> </p>
+
+
+            <p id="demo"></p>
+            <h3 id="vs">Adhithya vs Aravind.</h3>
+            <p>To replace vs with and </p>
+                <button onclick="rep()">Click Me</button> 
+        </div>
+    </center>
+    <script>
+        function finder() {
+            let text = "Adhithya vs Aravind how will win?";
+            let n = text.search(/Aravind/i);
+            document.getElementById("demo").innerHTML = "Aravind found at : " + n;
+        }
+
+        function rep() {
+            let text = document.getElementById("vs").innerHTML;
+            document.getElementById("vs").innerHTML = text.replace(/vs/i, "and");
+        }
+    </script>
+
+</body>
+
+</html>
